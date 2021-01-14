@@ -37,7 +37,7 @@ exmple:
 3. Another class is **`Node`** which represents the data of a node in a directed weighted graph. at this department there are function like get node tag or set him, get node info or set him, and get the node key.
 
 # Comparisons
-In the wiki you can find running time comparisons between Python, Java and Networkx.
+In the [wiki](https://github.com/sivanyahav/OOP-Ex3.wiki.git) you can find running time comparisons between Python, Java and Networkx.
 We made the comparisons on 5 graphs of different sizes (10, 100, 1000, 10000, 20,000, 30000 vertices.) For the following functions:
 
 `connected component`
