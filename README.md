@@ -15,12 +15,12 @@ The main data structure that we chose to use to implement the project is diction
  * **connected component(id1)-** Finds the Strongly Connected Component(SCC) that node id1 is a part
  *  **connected components()-** Finds all the Strongly Connected Component(SCC) in the graph.
 
-![explain](https://github.com/sivanyahav/OOP-Ex3/blob/master/data/connected.gif)
+![](https://github.com/sivanyahav/OOP-Ex3/blob/main/data/connected.gif)
  
  * **shortestPath(int src, int dest)-** returns the shortest path between src to dest - as an ordered List of nodes keys, and his length.
   if no such path returns float('inf') and empty list. This function uses dijkstra algorithm .
 
-![explain](https://github.com/sivanyahav/OOP-Ex3/blob/master/data/shortest.gif)
+![](https://github.com/sivanyahav/OOP-Ex3/blob/main/data/shortest.gif)
  * **Save(file)-** saves this weighted (directed) graph to the given
 file name - in JSON format
  * **Load(file)-**  This method load a graph to this graph algorithm.
@@ -28,7 +28,9 @@ if the file was successfully loaded - the underlying graph of this class will be
  *  **plot_graph()-** Plots the graph.  
 If the nodes have a position, the nodes will be placed there.  
 Otherwise, they will be placed in a random but elegant manner.
-exmple: ![](https://github.com/sivanyahav/OOP-Ex3/blob/master/data/readme2.png)
+exmple:
+
+![](https://github.com/sivanyahav/OOP-Ex3/blob/main/data/readme2.png)
  
     The class that implements this interface is GraphAlgo.
 
